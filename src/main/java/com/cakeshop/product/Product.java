@@ -13,6 +13,10 @@ public abstract class Product {
         this.basePrice = basePrice;
         this.pricePolicy = pricePolicy;
     }
+    
+    public String getName() {
+        return name;
+    }
 
     public int getPrice(){
         return pricePolicy.calculate(basePrice);
