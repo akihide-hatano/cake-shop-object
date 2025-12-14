@@ -19,7 +19,15 @@ public class App {
     Product cake10 = new Cake("ティラミス", 560, new NormalPrice());
 
 
-        PricePolicy pricePolicy = new NormalPrice();
+        System.out.println(cake1.getName()+"の価格は"+cake1.getPrice()+"円です。");
+        System.out.println(cake2.getName()+"の価格は"+cake2.getPrice()+"円です。");
         System.out.println(cake3.getName()+"の価格は"+cake3.getPrice()+"円です。");
+        System.out.println(cake4.getName()+"の価格は"+cake4.getPrice()+"円です。");
+        System.out.println(cake5.getName()+"の価格は"+cake5.getPrice()+"円です。");
+        System.out.println(cake6.getName()+"の価格は"+cake6.getPrice()+"円です。");
+        System.out.println(cake7.getName()+"の価格は"+cake7.getPrice()+"円です。");
+        System.out.println(cake8.getName()+"の価格は"+cake8.getPrice()+"円です。");
+        System.out.println(cake9.getName()+"の価格は"+cake9.getPrice()+"円です。");
+        System.out.println(cake10.getName()+"の価格は"+cake10.getPrice()+"円です。");
     }
 }
